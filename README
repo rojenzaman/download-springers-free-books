@@ -1,0 +1,19 @@
+Geçtiğimiz aylarda springers 400 kitabı erişime açtı.
+Erişime açılan kitaplar bir liste halinde bulunuyordu, haliyle hepsini indirebilmek için
+urlleri takip edip indirmek gerekiyordu; hepsini indirme seçeneği yoktu.
+
+Ben de bu  400 urllyi parse edip indiren bir script yazdım.
+`download.sh` dosyasını kabuğunda çalıştırdığında hepsi bulunduğun dizine eklenmiş olacaktır.
+
+pdf dosyalarini indirmek icin 
+
+$ ./download.sh
+
+yaklasik 400 kitap urlsi var. pdf idlerden indirildigi icin idsi sonradan degistirmisse site, indirelemiyor.
+
+indirilemeyen kitap sayısı bir 10 kadardir. kontrol etmek icin:
+
+$ ./check-if-no-exist.sh
+
+
+İyi arşivlemeler.
